@@ -1,0 +1,26 @@
+Create Vlan
+Switch#configure terminal 
+Switch(config)#vlan 10
+Switch(config-vlan)#name IT
+Switch(config-vlan)#exit
+Switch(config)#vlan 20
+Switch(config-vlan)#name Finance
+Switch(config-vlan)#exit
+Switch(config)#vlan 30
+Switch(config-vlan)#name Marketing
+Switch(config-vlan)#exit
+
+Vlan 10 IT
+Switch(config)#interface range fastEthernet0/1-4
+Switch(config-if-range)#switchport mode access
+Switch(config-if-range)#switchport access vlan 10
+
+Vlan 20 Finance
+Switch(config)#interface range fastEthernet0/5-8
+Switch(config-if-range)#switchport mode access
+Switch(config-if-range)#switchport access vlan 20
+
+Vlan 30 Marketing 
+Switch(config)#interface range fastEthernet0/9-12
+Switch(config-if-range)#switchport mode access
+Switch(config-if-range)#switchport access vlan 30
