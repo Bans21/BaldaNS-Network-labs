@@ -4,7 +4,7 @@ A collection of Cisco Packet Tracer network labs and documentation covering swit
  Network Lab
 A collection of Cisco Packet Tracer labs documenting my journey toward becoming a network engineer
 
-📖 About
+# 📖 About
 
 welcome to my network labs repository
 
@@ -18,7 +18,7 @@ This repository contains hands-on Cisco Packet Tracer projects designed to simul
 - Documentation
 
 
-🛠 Technologies
+# 🛠 Technologies
 - Cisco Packet Tracer
 - Cisco IOS
 - VLAN
@@ -33,7 +33,7 @@ This repository contains hands-on Cisco Packet Tracer projects designed to simul
 - DNS
 
 
-💼 Skills Practiced
+# 💼 Skills Practiced
 - Network Design
 - Troubleshooting
 - Cisco IOS CLI
@@ -42,7 +42,7 @@ This repository contains hands-on Cisco Packet Tracer projects designed to simul
 - Network Security
 
 
-🚀 Learning Roadmap
+# 🚀 Learning Roadmap
 - ✅ Project 01 - VLAN and Switching
 - ⏳ Project 02 - Inter-VLAN Routing
 
